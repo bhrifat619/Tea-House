@@ -433,6 +433,14 @@ body {
     margin-top: 5rem;
     padding-bottom: 3rem;
 }
+.link .contact{
+    display: flex;
+    gap: 25px;
+}
+.link .contact .fa-brands{
+    font-size: 1.5rem;
+    color: black;
+}
 /* ======footer done====== */
 /* responsive starts */
 @media screen and (max-width:640px) {
@@ -532,7 +540,7 @@ body {
         margin-top: 2rem; 
         display: flex;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
     }
 }
 
